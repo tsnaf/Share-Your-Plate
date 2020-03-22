@@ -121,6 +121,11 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
+            ".cid-rTWtslvaA1": {
+              "-webkit-box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)",
+              "-moz-box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)",
+              "box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)"
+            },
             ".card-wrapper": {
               "z-index": "3",
               ".mbr-section-title": {
@@ -784,6 +789,10 @@
               "font-weight": "300"
             },
             ".step": {
+              "-webkit-box-shadow": "0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)",
+              "-moz-box-shadow": "0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)",
+              "box-shadow": "0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)",
+              "transition": "all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)",
               "width": "(@stepSize * 2px)",
               "height": "(@stepSize * 2px)",
               "font-size": "~\"@{stepSize}px\"",
@@ -796,6 +805,11 @@
                   "font-size": "24px"
                 }
               }
+            },
+            ".step:hover": {
+              "-webkit-box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)",
+              "-moz-box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)",
+              "box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)"
             },
             ".separline": {
               "position": "relative",
@@ -815,6 +829,11 @@
                   }
                 }
               }
+            },
+            ".mbr-figure": {
+              "-webkit-box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)",
+              "-moz-box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)",
+              "box-shadow": "0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)"
             },
             ".media-block when (@showMedia)": {
               "flex-shrink": "0",
@@ -854,7 +873,9 @@
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "step3-6"
+          "_anchor": "step3-6",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
